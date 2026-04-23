@@ -172,9 +172,135 @@
             </li>
         @endcan
 
+
+        {{-- super admin role --}}
+
+        <li class="menu-header small text-uppercase">
+            <span class="menu-header-text">Super Admin Role</span>
+        </li>
+
+        <!-- Diary Dispatch -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-file"></i>
+                <div data-i18n="Diary Dispatch">Diary Dispatch</div>
+            </a>
+
+            <ul class="menu-sub">
+                {{-- Create Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Create Ad">Create Ad</div>
+                    </a>
+                </li>
+
+                {{-- Diary dispatch index --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Index">Index</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Super Intendent -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-file"></i>
+                <div data-i18n="Super Intendent">Super Intendent</div>
+            </a>
+
+            <ul class="menu-sub">
+                {{-- Pending Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Pending Ads">Pending Ads</div>
+                    </a>
+                </li>
+
+                {{-- Approved Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Approved Ads">Approved Ads</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Deputy Director -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-file"></i>
+                <div data-i18n="Deputy Director">Deputy Director</div>
+            </a>
+
+            <ul class="menu-sub">
+                {{-- Pending Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Pending Ads">Pending Ads</div>
+                    </a>
+                </li>
+
+                {{-- Approved Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Approved Ads">Approved Ads</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Director General -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-file"></i>
+                <div data-i18n="Director General">Director General</div>
+            </a>
+
+            <ul class="menu-sub">
+                {{-- Pending Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Pending Ads">Pending Ads</div>
+                    </a>
+                </li>
+
+                {{-- Approved Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Approved Ads">Approved Ads</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+          <!-- Secretary -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-file"></i>
+                <div data-i18n="Secretary">Secretary</div>
+            </a>
+
+            <ul class="menu-sub">
+                {{-- Pending Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Pending Ads">Pending Ads</div>
+                    </a>
+                </li>
+
+                {{-- Approved Ads --}}
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <div data-i18n="Approved Ads">Approved Ads</div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+
         <!-- Financials  -->
-
-
         @can('View billings')
             <li class="menu-header small text-uppercase">
                 <span class="menu-header-text">Financials</span>
